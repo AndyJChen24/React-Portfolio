@@ -1,13 +1,13 @@
-const express = require("express");
-const app = express();
-const PORT = process.env.PORT || 3001;
+const express = require('express');
+const http = require('http');
+const path = require('path');
 
-// Define middleware here
-app.use(express.urlencoded({ extended: true }));
-app.use(express.json());
+let app = express();
 
+app.use(express.static(path.join(__dirname, 'public')));
 
-// Start the API server
-app.listen(PORT, function() {
-  console.log(`🌎  ==> API Server now listening on PORT ${PORT}!`);
-});
+const port = process.env.PORT || '3000';
+app.set('port', port);
+
+const server = http.createServer(app);
+server.listen(port, () => console.log(`running on localhost`));

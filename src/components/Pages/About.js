@@ -1,4 +1,5 @@
 import React from "react"
+import "./style.css"
 
 const About =()=>{
 
@@ -9,7 +10,7 @@ const About =()=>{
                     <h1>About Me</h1>
                     <div class="row">
                         <div class="pic col-xs-6 col-sm-6 col-lg-4">
-                            <img class="me" src="../img/me.jpg" alt=""/>
+                            <img class="me" src={require("../../img/me.jpg")} alt=""/>
                         </div>
                         <div class="col-lg-8">
                             My name is Andy Chen. I am currently completing a 24 week coding program with Univeristy of Oregon. At the end of this program I will be proficience in HTML, CSS and Javascript.

@@ -12,7 +12,7 @@ const Nav = (props) => {
             </div>
             <ul className="nav_link">
                 <li><a href="about" id="about">About</a></li>
-                <li><a href={"https://drive.google.com/file/d/1mCzVBMMdCzlcIKmsusiLjbYV79S8uCrv/view?usp=sharing"} id="resume">Resume</a></li>
+                <li><a href={"https://drive.google.com/file/d/1bYMDSmeihyKpi2YhFxSg62w5zo5F98L4/view?usp=sharing"} id="resume">Resume</a></li>
                 <li><a href="portfolio" id="projects">Projects</a></li>
                 <li><a href="contact" id="contact">Contact</a></li>
             </ul>    

@@ -15,7 +15,7 @@ const Portfolio = () =>{
               
                 <div class="col-md-5 col-sm-12 site" >
                     <div class="imageContainer">
-                        <a href="https://andyjchen24.github.io/Project1/"><img class="img" src={require("../../img/AnimeSearch.png")} alt=""/></a>
+                        <a href="https://quokka-social-gardening.herokuapp.com/"><img class="img" src={require("../../img/quokka.png")} alt=""/></a>
                     </div>
                     <div class="caption">
                         <h5>Otaku Zone</h5>
@@ -40,7 +40,7 @@ const Portfolio = () =>{
                 </div>
                 <div class="col-md-5 col-sm-12 site" >
                     <div class="imageContainer">
-                        <a href="https://sleepy-retreat-37536.herokuapp.com/"><img class="img" src={require("../../img/eat-da-burger.png")} alt=""/></a>
+                        <a href="https://fast-waters-35393.herokuapp.com/"><img class="img" src={require("../../img/workoutTracker.png")} alt=""/></a>
                     </div>
                     <div class="caption">
                         <h5 >Eat-Da-Burger</h5>

@@ -18,7 +18,7 @@ const Portfolio = () =>{
                         <a href="https://quokka-social-gardening.herokuapp.com/"><img class="img" src={require("../../img/quokka.png")} alt=""/></a>
                     </div>
                     <div class="caption">
-                        <h5>Otaku Zone</h5>
+                        <h5>Quokka-Social Gardening App</h5>
                     </div>
                     
                 </div>
@@ -43,7 +43,7 @@ const Portfolio = () =>{
                         <a href="https://fast-waters-35393.herokuapp.com/"><img class="img" src={require("../../img/workoutTracker.png")} alt=""/></a>
                     </div>
                     <div class="caption">
-                        <h5 >Eat-Da-Burger</h5>
+                        <h5 >Workout Tracker</h5>
                     </div>
                 </div>
                 <div class="col-md-5 col-sm-12 site" >

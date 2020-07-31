@@ -13,8 +13,8 @@ const About =()=>{
                             <img class="me" src={require("../../img/me.jpg")} alt=""/>
                         </div>
                         <div class="col-lg-8">
-                            My name is Andy Chen. I am currently completing a 24 week coding program with Univeristy of Oregon. At the end of this program I will be proficience in HTML, CSS and Javascript.
-                            I will also be working with programming environments such as Bootstrap, Express.js, JQuery, Node.js, React.js, MySQL.
+                            My name is Andy Chen. Recently completed a 24 week coding program with Univeristy of Oregon. I am proficience in HTML, CSS and Javascript.
+                            I have worked with programming environments such as Bootstrap, Express.js, JQuery, Node.js, React.js, MySQL.
                         </div>
                     </div> 
                 </div>

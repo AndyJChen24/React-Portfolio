@@ -4,9 +4,9 @@ import Footer from './components/Footer'
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Contact from "./components/Pages/Contact";
 import About from "./components/Pages/About";
-import Portfolio from './components/Pages/Portfolio';
+import Portfolio from './components/Portfolio';
+
 import Index from "./components/Pages/Index"
-import Card from "./components/Card"
 function App() {
   return (
     <Router>

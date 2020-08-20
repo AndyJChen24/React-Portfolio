@@ -1,6 +1,6 @@
 import React from "react"
-
-
+import { Card, Image} from 'semantic-ui-react'
+import {Button} from 'react-bootstrap'
 import img1 from "../../img/quokka.png";
 import img2 from "../../img/weatherAPI.png";
 import img3 from "../../img/WorkDayScheduler.png";
@@ -17,9 +17,25 @@ const Portfolio = () =>{
           <div class="col col-md-12 col-sm-12 col-xs-12 col-lg-8 customcss">
             <h1>Portfolio</h1>
             
+            <Card>
+                <Image size='mini' src={img1}  wrapped ui={true}/>
+                <Card.Content>
+                    <Card.Header>Quokka</Card.Header>
+                    <Card.Description>Social Gardening App</Card.Description>
+                </Card.Content>
+                <Button>Live Site</Button>
+                <Button>Github Code</Button>  
+            </Card>
             
-            
-            <section class="projects row">
+
+            <Card>
+                <Image size='mini' src={img2}  wrapped ui={true}/>
+                <Card.Content>
+                    <Card.Header>Weather App</Card.Header>
+                    <Card.Description>Check out weather in your city</Card.Description>
+                </Card.Content>
+            </Card>
+            {/* <section class="projects row">
               
                 <div class="col-md-4 col-sm-12 site" >
                     <div class="imageContainer">
@@ -70,7 +86,7 @@ const Portfolio = () =>{
                         <h5 >Notetaker</h5>
                     </div>
                 </div>
-            </section>
+            </section> */}
             </div>
         </div>
     </div>

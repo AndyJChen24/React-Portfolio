@@ -19,7 +19,7 @@ const Portfolio = () =>{
             
             <h1>Portfolio</h1>
         <div class="projects row">
-        <div class="col-md-4 col-sm-12 site">  
+        <div class="col-md-4 col-sm-6 site">  
             <Card >
                 <img class="img" src={img1} alt=""/>
                 <Card.Content>
@@ -31,7 +31,7 @@ const Portfolio = () =>{
             </Card>
         </div>
 
-        <div class="col-md-4 col-sm-12 site" >  
+        <div class="col-md-4 col-sm-6 site" >  
             <Card >
                 <img class="img" src={img2} alt=""/>
                 <Card.Content>
@@ -43,7 +43,7 @@ const Portfolio = () =>{
             </Card>
         </div>
 
-        <div class="col-md-4 col-sm-12 site" > 
+        <div class="col-md-4 col-sm-6 site" > 
             <Card>
                 <img class="img" src={img3} alt=""/>
                 <Card.Content>
@@ -55,7 +55,7 @@ const Portfolio = () =>{
             </Card>
         </div>
 
-        <div class="col-md-4 col-sm-12 site" > 
+        <div class="col-md-4 col-sm-6 site" > 
             <Card>
                 <img class="img" src={img4} alt=""/>
                 <Card.Content>
@@ -67,7 +67,7 @@ const Portfolio = () =>{
             </Card>
         </div>
 
-        <div class="col-md-4 col-sm-12 site" > 
+        <div class="col-md-4 col-sm-6 site" > 
             <Card>
                 <img class="img" src={img5} alt=""/>
                 <Card.Content>
@@ -79,7 +79,7 @@ const Portfolio = () =>{
             </Card>
         </div>
 
-        <div class="col-md-4 col-sm-12 site" > 
+        <div class="col-md-4 col-sm-6 site" > 
             <Card>
                 <img class="img" src={img6} alt=""/>
                 <Card.Content>

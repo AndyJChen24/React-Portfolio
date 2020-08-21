@@ -110,13 +110,17 @@ h1{
 
 .projects{
     display:flex;
+    align-items: flex-start;
     justify-content: space-around;
     text-align: center;
+    
 }
 .site{
-    border-style: solid;
+    /* border-style: solid; */
     border-width: 1px;
-    margin: 1em;
+    align-items: flex-start;
+    margin-top:20px;
+    /* margin: 1em; */
     /* overflow: hidden; */
     /* height:200px; */
 }

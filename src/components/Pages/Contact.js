@@ -10,7 +10,7 @@ const Contact = () =>{
                     <h1>Contact</h1>
                     <div class="row"><h6>Contact or Follow Me Here!</h6></div>
                     <div class="row">
-                        <a href="mailto:andychen24@hotmail.com"><i class="fa fa-envelope"></i> mailto:andychen24@hotmail.com</a>
+                        <a href="mailto:andychen24@hotmail.com"><i class="fa fa-envelope"></i> andychen24@hotmail.com</a>
                     </div>
                     <div class="row">
                         <a target="_blank" href="https://github.com/AndyJChen24"><i class="fa fa-github"></i> https://github.com/AndyJChen24</a>

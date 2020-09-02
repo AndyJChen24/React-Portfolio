@@ -29,16 +29,16 @@ const Portfolio = () =>{
                         </Card>
                     </div>
 
-                    <div class="col-md-4 col-sm-6 site" >  
-                        <Card >
-                            <img class="img" src={img2} alt=""/>
+                    <div class="col-md-4 col-sm-6 site" > 
+                        <Card>
+                            <img class="img" src={img6} alt=""/>
                             <Card.Content>
-                                <Card.Header>Weather App</Card.Header>
-                                <Card.Description>Weather app that let users enter the city name to look up the weekly forecast of said city, UV index and wind speed.</Card.Description>
+                                <Card.Header>Notetaker</Card.Header>
+                                <Card.Description>Web application that allows the user to create and save notes and save it onto the dash. It will allow user to view their previous saved notes and delete it.</Card.Description>
                                 <Card.Description>Built: Javascript, HTML, CSS and Bootstrap </Card.Description>
                             </Card.Content>
-                            <a href="https://andyjchen24.github.io/WeatherAPI/"><Button>Live Site</Button></a>
-                            <a href="https://github.com/AndyJChen24/WeatherAPI"><Button>Github Code</Button></a>   
+                            <a href="https://enigmatic-eyrie-77722.herokuapp.com/"><Button>Live Site</Button></a>
+                            <a href="https://github.com/AndyJChen24/Notetaker"><Button>Github Code</Button></a> 
                         </Card>
                     </div>
 
@@ -81,18 +81,19 @@ const Portfolio = () =>{
                         </Card>
                     </div>
 
-                    <div class="col-md-4 col-sm-6 site" > 
-                        <Card>
-                            <img class="img" src={img6} alt=""/>
+                    <div class="col-md-4 col-sm-6 site" >  
+                        <Card >
+                            <img class="img" src={img2} alt=""/>
                             <Card.Content>
-                                <Card.Header>Notetaker</Card.Header>
-                                <Card.Description>Web application that allows the user to create and save notes and save it onto the dash. It will allow user to view their previous saved notes and delete it.</Card.Description>
+                                <Card.Header>Weather App</Card.Header>
+                                <Card.Description>Weather app that let users enter the city name to look up the weekly forecast of said city, UV index and wind speed.</Card.Description>
                                 <Card.Description>Built: Javascript, HTML, CSS and Bootstrap </Card.Description>
                             </Card.Content>
-                            <a href="https://enigmatic-eyrie-77722.herokuapp.com/"><Button>Live Site</Button></a>
-                            <a href="https://github.com/AndyJChen24/Notetaker"><Button>Github Code</Button></a> 
+                            <a href="https://andyjchen24.github.io/WeatherAPI/"><Button>Live Site</Button></a>
+                            <a href="https://github.com/AndyJChen24/WeatherAPI"><Button>Github Code</Button></a>   
                         </Card>
                     </div>
+                
                 </div>
             </div>
         </div>

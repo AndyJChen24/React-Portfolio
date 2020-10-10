@@ -91,13 +91,15 @@ li, a{
 
 
 .container{
-    margin-top: 1em;
+    display: grid;
+    place-items: center;
+    /* margin-top: 1em;
     padding: 2em;
     border-style: ridge;
     border-radius: 10px;
     top:16vh;
     height: auto;
-    background-color:white;
+    background-color:white; */
     
 }
 

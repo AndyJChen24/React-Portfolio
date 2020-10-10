@@ -23,7 +23,6 @@ body{
 .row{
     justify-content: center;
     align-items: center;
-    
     top:50%;
     left:50%;
     margin:0 auto;
@@ -136,14 +135,8 @@ li, a{
     width:100%    
 }
 .container{
-    margin-top: 1em;
-    padding: 2em;
-    border-style: ridge;
-    border-radius: 10px;
-    top:16vh;
-    height: auto;
-    background-color:white;
-    
+    display: grid;
+    place-items: center;
 }
 h1{
     text-align: center;
@@ -161,7 +154,6 @@ h1{
 .row h6{
     margin-top:1em;
 }
-.row a{
+/* .row a{
     padding: 10px;
-    
-}
+} */

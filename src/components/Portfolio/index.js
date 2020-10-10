@@ -1,6 +1,5 @@
 import React from "react"
 import "./style.css"
-import { Card, Image} from 'semantic-ui-react'
 import {Button} from 'react-bootstrap'
 import img1 from "../../img/quokka.png";
 import img2 from "../../img/weatherAPI.png";
